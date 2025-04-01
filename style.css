@@ -1,0 +1,60 @@
+/* Mortiner Night Background */
+body {
+  background-color: #000000; /* Fond noir */
+  color: white; /* Texte en blanc */
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column; /* Ajouté pour aligner les éléments verticalement */
+}
+
+/* Container pour le contenu */
+.mortiner-container {
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.7); /* Opacité pour l'effet de superposition */
+  padding: 20px;
+  border-radius: 10px;
+  width: 100%; /* Prend toute la largeur de l'écran pour une meilleure adaptabilité */
+  max-width: 600px; /* Limite la largeur maximale du container */
+}
+
+/* Personnalisation du titre */
+h1 {
+  font-size: 3rem;
+  margin: 0;
+  font-weight: bold;
+  color: white; /* Texte du titre en blanc */
+}
+
+/* Personnalisation des boutons */
+button {
+  background-color: #ff3366; /* Boutons de couleur rose vif */
+  color: white;
+  font-size: 1.2rem;
+  padding: 10px 20px;
+  margin: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  text-transform: uppercase; /* Mettre le texte des boutons en majuscules */
+}
+
+/* Effet de survol pour les boutons */
+button:hover {
+  background-color: #ff1a47; /* Changement de couleur au survol */
+}
+
+/* Retirer la bordure de focus pour un aspect plus épuré */
+button:focus {
+  outline: none;
+}
+
+/* Personnalisation du texte */
+p {
+  font-size: 1.2rem;
+}
